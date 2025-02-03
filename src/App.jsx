@@ -5,6 +5,7 @@ import { Whatsapp } from './components/whatsapp/whatsapp'
 import { Inicio } from './components/inicio/inicio'
 import { Proceso } from './components/proceso/proceso'
 import { Contacto } from './components/contacto/contacto'
+import { Footer } from './components/footer/footer'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       <Navbar></Navbar>
       <Inicio></Inicio>
       <Proceso></Proceso>
-      {/* <Contacto></Contacto> */}
+      <Contacto></Contacto>
+      <Footer></Footer>
       <Whatsapp></Whatsapp>
     </>
   )

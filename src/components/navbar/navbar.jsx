@@ -35,7 +35,7 @@ export const Navbar = () => {
         <div className="absolute top-[90px] left-0 w-full bg-white flex flex-col justify-center items-center space-y-8 shadow-xl py-6">
           <button className="text-verdeagua text-lg" onClick={() => setMenuOpen(false)}>Inicio</button>
           <button className="text-verdeagua text-lg" onClick={() => setMenuOpen(false)}>Servicios</button>
-          <button className="bg-naranja h-[50px] text-white px-6 rounded-xl text-md" onClick={() => setMenuOpen(false)}>CONSULTAR RECLAMO</button>
+          <button className="bg-naranja h-[50px] text-white px-6 rounded-xl text-md" onClick={() => setMenuOpen(false)}>INICIAR RECLAMO</button>
         </div>
       )}
     </div>
