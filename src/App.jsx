@@ -6,6 +6,7 @@ import { Inicio } from './components/inicio/inicio'
 import { Proceso } from './components/proceso/proceso'
 import { Contacto } from './components/contacto/contacto'
 import { Footer } from './components/footer/footer'
+import { Preguntas } from './components/preguntas/preguntas'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Inicio></Inicio>
       <Proceso></Proceso>
+      <Preguntas></Preguntas>
       <Contacto></Contacto>
       <Footer></Footer>
       <Whatsapp></Whatsapp>

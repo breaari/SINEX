@@ -17,8 +17,8 @@ export const Navbar = () => {
 
       {/* Menú Desktop */}
       <div className="mq980:hidden flex flex-row space-x-20 font-semibold items-center">
-        <button className="text-verdeagua text-lg">Inicio</button>
-        <button className="text-verdeagua text-lg">Servicios</button>
+        {/* <button className="text-verdeagua text-lg">Inicio</button>
+        <button className="text-verdeagua text-lg">Servicios</button> */}
         <button className="bg-naranja h-[50px] text-white px-6 rounded-xl text-md">CONSULTAR RECLAMO</button>
       </div>
 
@@ -33,8 +33,8 @@ export const Navbar = () => {
       {/* Menú desplegable móvil */}
       {menuOpen && (
         <div className="absolute top-[90px] left-0 w-full bg-white flex flex-col justify-center items-center space-y-8 shadow-xl py-6">
-          <button className="text-verdeagua text-lg" onClick={() => setMenuOpen(false)}>Inicio</button>
-          <button className="text-verdeagua text-lg" onClick={() => setMenuOpen(false)}>Servicios</button>
+          {/* <button className="text-verdeagua text-lg" onClick={() => setMenuOpen(false)}>Inicio</button>
+          <button className="text-verdeagua text-lg" onClick={() => setMenuOpen(false)}>Servicios</button> */}
           <button className="bg-naranja h-[50px] text-white px-6 rounded-xl text-md" onClick={() => setMenuOpen(false)}>INICIAR RECLAMO</button>
         </div>
       )}
