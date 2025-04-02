@@ -4,9 +4,11 @@ import { Navbar } from './components/navbar/navbar'
 import { Whatsapp } from './components/whatsapp/whatsapp'
 import { Inicio } from './components/inicio/inicio'
 import { Proceso } from './components/proceso/proceso'
-import { Contacto } from './components/contacto/contacto'
 import { Footer } from './components/footer/footer'
 import { Preguntas } from './components/preguntas/preguntas'
+import { Servicios } from './components/servicios/servicios'
+import { ServiciosAnexos } from './components/servicios/serviciosanexos'
+import { EnviarCasos } from './components/enviarcasos/enviarcasos'
 
 function App() {
 
@@ -14,9 +16,11 @@ function App() {
     <>
       <Navbar></Navbar>
       <Inicio></Inicio>
-      <Proceso></Proceso>
+      <Servicios></Servicios>
+      <ServiciosAnexos></ServiciosAnexos>
       <Preguntas></Preguntas>
-      <Contacto></Contacto>
+      <Proceso></Proceso>
+      <EnviarCasos></EnviarCasos>
       <Footer></Footer>
       <Whatsapp></Whatsapp>
     </>

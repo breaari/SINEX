@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         verdeagua: '#0EB9CB',
       naranja: '#FF8759',
+      violaceo: '#3150af',
+      customBlue: "#547ceb"
       },
       screens: {
         mq1024: {

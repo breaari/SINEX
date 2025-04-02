@@ -1,48 +1,24 @@
-import recepcion from "../../assets/recepcion.png"
-import cotizacion from "../../assets/cotizacion.png"
-import envio from "../../assets/envio.png"
-import acuerdo from "../../assets/acuerdo.png"
-import cobro from "../../assets/cobro.png"
-import legales from "../../assets/legales.png"
+import proceso from "../../assets/proceso.PNG"
 
 export const Proceso = () => {
     return (
-        <div className="text-center p-8 bg-teal-50">
-            <h1 className="font-bold text-gray-700 text-4xl mt-8 mb-16">PROCESO DEL RECLAMO</h1>
-            <div className="flex flex-wrap gap-8 justify-evenly">
-                <div className="bg-white shadow-xl flex flex-col justify-center items-center p-8 rounded-xl w-[300px]">
-                    <img src={recepcion} className="w-[150px]"/>  
-                    <h1 className="font-bold text-gray-700 text-3xl my-4">RECEPCIÓN</h1>
-                    <h2 className="font-sembold text-gray-700 text-xl">Una vez establecido el contacto, armamos su expediente explicando plazos y procesos.</h2>
-                </div>
-                <div className="bg-white shadow-xl flex flex-col justify-center items-center p-8 rounded-xl w-[300px]">
-                    <img src={cotizacion} className="w-[150px]"/>  
-                    <h1 className="font-bold text-gray-700 text-3xl my-4">COTIZACIÓN DE DAÑOS</h1>
-                    <h2 className="font-sembold text-gray-700 text-xl">Una vez establecido el contacto, armamos su expediente explicando plazos y procesos.</h2>
-                </div>
-                <div className="bg-white shadow-xl flex flex-col justify-center items-center p-8 rounded-xl w-[300px]">
-                    <img src={envio} className="w-[150px]"/>  
-                    <h1 className="font-bold text-gray-700 text-3xl my-4">PRESENTACIÓN DEL RECLAMO</h1>
-                    <h2 className="font-sembold text-gray-700 text-xl">Se envía toda la documentación a la compañía del responsable.</h2>
-                </div>
-                <div className="bg-white shadow-xl flex flex-col justify-center items-center p-8 rounded-xl w-[300px]">
-                    <img src={acuerdo} className="w-[150px]"/>  
-                    <h1 className="font-bold text-gray-700 text-3xl my-4">ACEPTACIÓN</h1>
-                    <h2 className="font-sembold text-gray-700 text-xl">Una vez acordado, gestionamos todo trámite pertinente al cobro.</h2>
-                </div>
-                <div className="bg-white shadow-xl flex flex-col justify-center items-center p-8 rounded-xl w-[300px]">
-                    <img src={cobro} className="w-[150px]"/>  
-                    <h1 className="font-bold text-gray-700 text-3xl my-4">COBRO DEL RECLAMO
-                    </h1>
-                    <h2 className="font-sembold text-gray-700 text-xl">El expediente sólo finaliza con la confirmación del cobro por parte del damnificado.</h2>
-                </div>
-
-                <div className="bg-white shadow-xl flex flex-col justify-center items-center p-8 rounded-xl w-[300px]">
-                    <img src={legales} className="w-[150px]"/>  
-                    <h1 className="font-bold text-gray-700 text-3xl my-4">LEGALES</h1>
-                    <h2 className="font-sembold text-gray-700 text-xl">En caso de no llegar a un acuerdo brindamos la posibilidad de seguir reclamando vía judicial.</h2>
-                </div>
-            </div>
+      <div className="bg-gray-200 w-full flex flex-row mq980:flex-col mq980:items-center mq980:p-8 items-start text-center py-16 px-6">
+        {/* Sección de título */}  
+        <div className="w-[40%] mq980:w-full flex flex-col items-center justify-start mq980:mb-4">
+          <h1 className="text-4xl font-bold text-violaceo mq980:text-3xl">PROCESO DEL</h1>
+          <h1 className="text-6xl font-bold text-violaceo mq980:text-5xl">RECLAMO</h1>
+          <img src = { proceso } className="w-[38%] mq980:hidden"></img>
         </div>
-    )
-}
+
+        {/* Sección de pasos */}  
+        <div className="w-[60%] mq980:w-full text-lg text-gray-700 text-start space-y-6">
+          <p><span className="font-bold text-violaceo">1. RECEPCIÓN:</span> Armamos su expediente y explicamos plazos y procesos.</p>
+          <p><span className="font-bold text-violaceo">2. COTIZACIÓN DE DAÑOS:</span> Evaluamos los daños y elaboramos un presupuesto.</p>
+          <p><span className="font-bold text-violaceo">3. PRESENTACIÓN DEL RECLAMO:</span> Enviamos la documentación a la aseguradora.</p>
+          <p><span className="font-bold text-violaceo">4. ACEPTACIÓN:</span> Una vez acordado, gestionamos el trámite de cobro.</p>
+          <p><span className="font-bold text-violaceo">5. COBRO DEL RECLAMO:</span> El expediente finaliza con la confirmación del pago.</p>
+          <p><span className="font-bold text-violaceo">6. LEGALES:</span> Si no hay acuerdo, ofrecemos opciones legales.</p>
+        </div>
+      </div>
+    );
+};
