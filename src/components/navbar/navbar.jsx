@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/logonaranja.PNG";
+import logo from "../../assets/logonaranja.png";
 import { IoMenu } from "react-icons/io5";
 
 export const Navbar = () => {
