@@ -6,10 +6,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+      },
       colors: {
         verdeagua: '#0EB9CB',
       naranja: '#FF8759',
-      violaceo: '#3150af',
+      violaceo2: '#3150af',
+      violaceo: '#ff8759',
       customBlue: "#547ceb"
       },
       screens: {

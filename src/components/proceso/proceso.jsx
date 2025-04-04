@@ -1,4 +1,4 @@
-import proceso from "../../assets/proceso.png"
+// import proceso from "../../assets/proceso.png"
 
 export const Proceso = () => {
     return (

@@ -13,17 +13,17 @@ import { EnviarCasos } from './components/enviarcasos/enviarcasos'
 function App() {
 
   return (
-    <>
+    <div className='font-outfit'>
       <Navbar></Navbar>
       <Inicio></Inicio>
       <Servicios></Servicios>
       <ServiciosAnexos></ServiciosAnexos>
       <Preguntas></Preguntas>
-      <Proceso></Proceso>
+      {/* <Proceso></Proceso> */}
       <EnviarCasos></EnviarCasos>
       <Footer></Footer>
       <Whatsapp></Whatsapp>
-    </>
+    </div>
   )
 }
 
