@@ -1,5 +1,5 @@
-import asesoria from "../../assets/asesoria.PNG"
-import terceros from "../../assets/terceros.PNG"
+import asesoria from "../../assets/asesoria.png"
+import terceros from "../../assets/terceros.png"
 import { FaCheck } from "react-icons/fa";
 
 export const Servicios = () => {
