@@ -70,7 +70,7 @@ export const Preguntas = () => {
   ];
 
   return (
-    <div className="p-16 mq980:p-8">
+    <div id="preguntas" className="p-16 mq980:p-8">
       <h1 className="text-5xl text-gray-700 font-bold text-center mb-16 mq980:mb-8 mq980:text-4xl">
         Preguntas frecuentes
       </h1>

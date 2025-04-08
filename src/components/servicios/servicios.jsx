@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 
 export const Servicios = () => {
     return (
-      <div className="bg-white w-full flex flex-col items-center text-center py-16 px-6 mq980:p-8">
+      <div id="servicios" className="bg-white w-full flex flex-col items-center text-center py-16 px-6 mq980:p-8">
         {/* Sección de título */}  
         <div className="w-full  flex flex-col items-center justify-start mb-8 mq980:mb-4">
           <h1 className="text-5xl font-bold text-violaceo mq980:text-4xl">Nuestros Servicios en SINEX</h1>

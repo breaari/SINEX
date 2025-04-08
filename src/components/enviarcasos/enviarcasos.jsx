@@ -11,7 +11,7 @@ export const EnviarCasos = () => {
         
         {/* Botón */}
         <a
-          href="https://forms.gle/tu-link-de-google-form" // Reemplazar con el link real
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdUmn_VJFzaoAqfs3s8m7sZbT-VG703oq1MfwCL2alFAE3-Sg/viewform?usp=preview" // Reemplazar con el link real
           target="_blank"
           rel="noopener noreferrer"
           className="bg-violaceo text-white text-2xl mq980:text-xl font-semibold py-3 px-6 rounded-md shadow-lg hover:bg-violaceo-dark transition-all"
